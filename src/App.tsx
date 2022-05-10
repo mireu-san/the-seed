@@ -7,7 +7,7 @@ function App() {
     <div className="App">
         <header className="App-header">
             <img src={ImageLogo} alt="logo" />
-            Face The Fear, Build The Future.
+            Click/Touch the image to move on to the main page.
         </header>
     </div>
   );
