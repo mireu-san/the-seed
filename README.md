@@ -22,7 +22,7 @@ This is what I am thinking to do.
 1. Right side : menu(link) 
 2. Left side : Main page of each link to display it (once clicked).
 
-## Literally. Each page design will follow the admin's page:
+### Literally. Each page design will follow the admin's page:
 3. About page
 4. Portfolio link page
 5. contact page
