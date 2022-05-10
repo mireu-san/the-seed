@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import Image from "./image";
+import ImageLogo from "./image/logo.jpg";
 
 function App() {
   return (
     <div className="App">
         <header className="App-header">
-          <Image imageUrl= {
-            "https://static.wikia.nocookie.net/lobotomycorp/images/d/d5/Wikibanner.png/revision/latest/scale-to-width-down/600?cb=20170720162653"} 
-            />
+            <img src={ImageLogo} alt="logo" />
             Face The Fear, Build The Future.
         </header>
     </div>
