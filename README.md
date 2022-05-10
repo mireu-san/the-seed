@@ -32,3 +32,11 @@ This is what I am thinking to do.
 
 # Disclaimer:
 This repository is for personal use only. No commercial activity is planned. Any external images may belonging to its original owner.
+
+# Checklist
+[x] 1. Logo insertion, get used to typescript.
+[ ] 2. Admin's control panel page - e.g. navbar, status panel page.
+[ ] 3. Work on - three pages
+[ ] Important! 4. Add transition effect and disappear the logo.
+[ ] 5. Temporaily publish page on netlify.
+[ ] 6. consider hosting the page.

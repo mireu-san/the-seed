@@ -7,6 +7,8 @@ Typescript - cannot import image file.
  
 4. https://stackoverflow.com/questions/51100401/typescript-image-import
 
+5. https://stackoverflow.com/questions/44154939/load-local-images-in-react-js
+
 Summary:
 1. add the following directory
 @types/global/index.d.ts
