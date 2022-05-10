@@ -12,8 +12,11 @@ This is what I am thinking to do.
 1. Welcome screen (act as welcome page)
 - As a visitor, I want to move on to the main screen.
 - As a developer, I need to set up main screen.
+### To do that,
 - Separated page, background image, transition effect.
-- this may belongs to index.html.
+- render it from index.tsx. Make a new file call 'welcome.tsx'. Try using styled components first.'
+- render and disappear in time or let it disappear if click the button.
+- once clicked, make all app.tsx content to appear.   
 
 2. Admin's page (act as main screen)
 - As a visitor, I want to explore and click 'about, portfolio, contact' link.
