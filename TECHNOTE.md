@@ -19,3 +19,17 @@ declare module '*.jpg';
 declare module '*.png';
 
 3. Finally done.
+
+Note:
+
+class Image extends React.Component {
+    render() {
+        return <img src={this.props.src} alt="logo" />;
+    }
+}
+
+# Potential item:
+1. Call post from Medium - api
+https://stackoverflow.com/questions/36097527/how-to-retrieve-medium-stories-for-a-user-from-the-api
+
+https://github.com/Medium/medium-api-docs
