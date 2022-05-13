@@ -24,7 +24,7 @@ function App() {
                 <Route path="/project" element={<Project />} />
               </Routes>
             </Router>
-            Click/Touch the image to move on to the main page.
+            App.tsx Click/Touch the image to move on to the main page.
         </header>
     </div>
   );
