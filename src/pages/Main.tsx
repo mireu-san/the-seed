@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../pages/Navbar'
 
 // import styles from "./Background.module.css";
 import styles from "./Picture.module.css";
@@ -12,7 +13,13 @@ const Main = () => {
         <source media="(min-width: 0px)" srcSet={MainPanel} />
         <img src={MainPanel} alt="main-panel" />
       </picture>
-      <h1 className={styles.header}>test, mainpanel, from Main.tsx</h1>
+      
+      <h1 className={styles.header}>
+       <p>You are now viewing admin's panel. (test, mainpanel, from Main.tsx)</p>
+        <Navbar />
+          {/* This navbar should be moved to right side. Try to use own UI instead CSS for this. Make underline invisible. */}
+          {/* Urgent: Make background size to 100%. To not let it exceed by itself. */}
+      </h1>
     </article>
   )
 }

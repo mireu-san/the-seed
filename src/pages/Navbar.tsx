@@ -14,13 +14,16 @@ export default class Navbar extends React.Component {
                 <div className='Navbar__menu'>
                     <ul className='Navbar__menu-wrapper'>
                         <li className='Navbar__menu-item'>
-                            <Link className="Nav__link" to="/">Link 1</Link>
+                            <Link className="Nav__link" to="/">Title Menu</Link>
                         </li>
                         <li className='Navbar__menu-item'>
-                            <Link className="Nav__link" to="/">Link 2</Link>
+                            <Link className="Nav__link" to="/main">Admin Panel</Link>
                         </li>
                         <li className='Navbar__menu-item'>
-                            <Link className="Nav__link" to="/">Link 3</Link>
+                            <Link className="Nav__link" to="/about">About</Link>
+                        </li>
+                        <li className='Navbar__menu-item'>
+                            <Link className="Nav__link" to="/project">Project</Link>
                         </li>
                     </ul>
                 </div>

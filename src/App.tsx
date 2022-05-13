@@ -9,7 +9,9 @@ import Main from './pages/Main';
 import About from './pages/About';
 import Project from './pages/Project';
 import Welcome from './pages/Welcome';
-
+// import ErrorPage from './pages/ErrorPage';
+// import Navbar from './pages/Navbar';
+// https://stackoverflow.com/questions/34607841/react-router-nav-bar-example
 function App() {
   return (
     <div className="App">
@@ -22,9 +24,11 @@ function App() {
                 <Route path="/main" element={<Main />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/project" element={<Project />} />
+                {/* <Route component={errorpage} /> */}
               </Routes>
             </Router>
-            App.tsx Click/Touch the image to move on to the main page.
+            App.tsx - Face the fear, Build the future.
+            {/* App.tsx Click/Touch the image to move on to the main page. */}
         </header>
     </div>
   );
