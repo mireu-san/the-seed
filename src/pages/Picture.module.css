@@ -22,3 +22,36 @@
     height: fit-content;
     margin: auto;
 }
+
+/* ////////////////////////////// */
+
+/* .navbar {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbarList {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarListItem {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarListItemLink {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */

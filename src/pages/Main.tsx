@@ -12,10 +12,48 @@ const Main = () => {
         <source media="(min-width: 0px)" srcSet={MainPanel} />
         <img src={MainPanel} alt="main-panel" />
       </picture>
-      <h1 className={styles.header}>test, mainpanel</h1>
+      <h1 className={styles.header}>test, mainpanel, from Main.tsx</h1>
     </article>
   )
 }
+
+// const Navbar = () => {
+//   return (
+//     <nav className={styles.navbar}>
+//       <ul className={styles.navbarList}>
+//         <li className={styles.navbarListItem}>
+//           <a href="#" className={styles.navbarListItemLink}>
+//             Home
+//           </a>
+//         </li>
+//         <li className={styles.navbarListItem}>
+//           <a href="#" className={styles.navbarListItemLink}>
+//             About
+//           </a>
+//         </li>
+//         <li className={styles.navbarListItem}>
+//           <a href="#" className={styles.navbarListItemLink}>
+//             Contact
+//           </a>
+//         </li>
+//       </ul>
+//     </nav>
+//   )
+// }
+
+function MainPage() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        {/* <Navbar /> */}
+        <Main />
+      </header>
+    </div>
+  )
+}
+
+export default MainPage
+
 
 // function Main() {
 //   return (
@@ -30,4 +68,4 @@ const Main = () => {
 //   )
 // }
 
-export default Main
+// export default Main
