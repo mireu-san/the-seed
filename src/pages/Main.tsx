@@ -7,12 +7,14 @@ import MainPanel from "../image/mainPanel.jpg";
 
 const Main = () => {
   return (
+    // wallpaper background area
     <article className={styles.article}>
       <picture className={styles.picture}>
-        <source media="(min-width: 0px)" srcSet={MainPanel} />
-        <img src={MainPanel} alt="main-panel" />
+        {/* <source media="(min-width: 0px)" srcSet={MainPanel} /> */}
+        <img src={MainPanel} className={styles.picture} />
       </picture>
       
+      {/* Text Area */}
       <h1 className={styles.header}>
        {/* <p>You are now viewing admin's panel. (test, mainpanel, from Main.tsx)</p> */}
         <Navbar />

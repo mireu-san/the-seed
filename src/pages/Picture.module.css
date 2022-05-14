@@ -4,12 +4,27 @@
     overflow: hidden;
 }
 
-.image {
+/* // issue area */
+.picture {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 1366px;
+    height: 768px;
+    background-image: url("../image/mainPanel.jpg");
+
+    background-size: cover;
 }
 
+.container {
+    background-image: url("../image/story.jpg");
+    width: 1366px;
+    height: 788px;
+    /* for mobile, use @media query */
+    background-size: cover;
+}
+
+
+
+/* end of issue area */
 
 /* .MainPanel {
     background: url("../image/mainPanel.jpg") no-repeat center center;
@@ -20,6 +35,7 @@
      background-size: cover;
 } */
 
+/* Temp note: Navbar is linked to .header */
 .header {
     /* font-size: 80px;
     color: white;
@@ -32,12 +48,13 @@
     height: fit-content;
     margin: auto; */
     position: absolute;
-    top: 2rem;
-    right: 3rem;
+    top: -3rem;
+    right: 0.5rem;
     margin: auto;
-    text-indent: 2rem; 
-    letter-spacing: 1rem;
+    text-indent: 1rem; 
+    letter-spacing: 2px;
     line-height: 10rem;
+    font-size: 2.2rem;
 }
 
 
