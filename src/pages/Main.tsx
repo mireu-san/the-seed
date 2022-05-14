@@ -1,9 +1,8 @@
 import React from 'react'
 import Navbar from '../pages/Navbar'
 
-// import styles from "./Background.module.css";
-import styles from "./Picture.module.css";
 
+import styles from "./Picture.module.css";
 import MainPanel from "../image/mainPanel.jpg";
 
 const Main = () => {
@@ -15,10 +14,15 @@ const Main = () => {
       </picture>
       
       <h1 className={styles.header}>
-       <p>You are now viewing admin's panel. (test, mainpanel, from Main.tsx)</p>
+       {/* <p>You are now viewing admin's panel. (test, mainpanel, from Main.tsx)</p> */}
         <Navbar />
           {/* This navbar should be moved to right side. Try to use own UI instead CSS for this. Make underline invisible. */}
           {/* Urgent: Make background size to 100%. To not let it exceed by itself. */}
+{/* 
+          For Navbar location, may consider using 'wrapper', then designate a new classname to move it on the right side.
+          For Wallpaper size matter, see this: https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height
+          remove dot point (left side)
+          */}
       </h1>
     </article>
   )

@@ -27,7 +27,7 @@ function App() {
                 {/* <Route component={errorpage} /> */}
               </Routes>
             </Router>
-            App.tsx - Face the fear, Build the future.
+            {/* Do not leave any content here. Only to work as the link platform. */}
             {/* App.tsx Click/Touch the image to move on to the main page. */}
         </header>
     </div>

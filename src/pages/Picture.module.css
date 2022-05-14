@@ -10,8 +10,18 @@
     height: 100%;
 }
 
+
+/* .MainPanel {
+    background: url("../image/mainPanel.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+} */
+
 .header {
-    font-size: 80px;
+    /* font-size: 80px;
     color: white;
     text-align: center;
     position: absolute;
@@ -20,8 +30,23 @@
     left: 0;
     right: 0;
     height: fit-content;
+    margin: auto; */
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
     margin: auto;
+    text-indent: 2rem; 
+    letter-spacing: 1rem;
+    line-height: 10rem;
 }
+
+
+
+/* .Nav__link  {
+    color: white;
+    list-style-type: none;
+} */
+
 
 /* ////////////////////////////// */
 
