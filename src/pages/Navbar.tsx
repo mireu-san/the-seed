@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import '../pages/Navbar.module.css'; 
+import styles from '../pages/Navbar.module.css'; 
 
 export default class Navbar extends React.Component {
     render() {
@@ -12,16 +12,16 @@ export default class Navbar extends React.Component {
                 <div className='Navbar__menu'>
                     {/* <ul className='Navbar__menu-wrapper'> */}
                         <li className='Navbar__menu-item-title'>
-                            <Link className="Nav__link" to="/">Title Menu</Link>
+                            <Link className={styles.navLink} to="/">ESC</Link>
                         </li>
                         <li className='Navbar__menu-item-main'>
-                            <Link className="Nav__link" to="/main">Admin Panel</Link>
+                            <Link className={styles.navLink} to="/main">Admin Panel</Link>
                         </li>
                         <li className='Navbar__menu-item-about'>
-                            <Link className="Nav__link" to="/about">About</Link>
+                            <Link className={styles.navLink} to="/about">About</Link>
                         </li>
                         <li className='Navbar__menu-item-project'>
-                            <Link className="Nav__link" to="/project">Project</Link>
+                            <Link className={styles.navLink} to="/project">Project</Link>
                         </li>
                     {/* </ul> */}
                 </div>

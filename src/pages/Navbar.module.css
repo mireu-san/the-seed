@@ -33,7 +33,46 @@ nav {
     padding-right: 30rem;
 }
 
+/* Welcome.tsx button */
+.btn {
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    padding: 0px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    border-inline-color: #FFFEA5;
+}
 
+.alert {
+    border-color: #f44336;
+    color: #FFFEA5;
+    font-size: 3rem;
+}
+
+.alert:hover {
+    background: #f44336;
+    color: white;
+}
+
+.navLink {
+    color: #FFFEA5;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    cursor: pointer;
+
+    border-color: #f44336;
+    color: #FFFEA5;
+
+    border-inline-color: red;
+    writing-mode: horizontal-tb;
+}
+
+.navLink:hover {
+    background: #f44336;
+    color: white;
+}
 
 /* Do not call nav or it applies to entire hierarchy after navbar variant. */
 /* .navbar {
