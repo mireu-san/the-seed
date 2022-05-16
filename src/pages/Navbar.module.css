@@ -1,0 +1,49 @@
+ul, li {
+    list-style-type: none;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+.Navbar__menu {
+    color: rgb(255, 255, 255);
+    display: block;
+    /* padding-top: 100px; */
+    /* padding-right: 40px;
+    padding-top: 20px; */
+}
+
+nav {
+    /* padding: 100px; */
+    right: -77rem;
+    left: 0rem;
+    position: absolute;
+    font-size: 2rem;
+
+    letter-spacing: 10px;
+    line-height: 10rem;
+}
+
+/* maintext.tsx, left side of main.tsx */
+.text {
+    position: absolute;
+    left: 2.5rem;
+    top: 10rem;
+    padding-right: 30rem;
+}
+
+
+
+/* Do not call nav or it applies to entire hierarchy after navbar variant. */
+/* .navbar {
+    padding: 20px;
+} */
+
+/* 
+.Navbar__menu-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    padding-left: 0px;
+} */

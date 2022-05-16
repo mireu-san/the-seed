@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../pages/Navbar'
-
+import MainText from '../pages/MainText'
 
 import styles from "./Picture.module.css";
 import MainPanel from "../image/mainPanel.jpg";
@@ -9,56 +9,26 @@ const Main = () => {
   return (
     // wallpaper background area
     <article className={styles.article}>
+    
       <picture className={styles.picture}>
-        {/* <source media="(min-width: 0px)" srcSet={MainPanel} /> */}
         <img src={MainPanel} className={styles.picture} />
       </picture>
-      
+        
       {/* Text Area */}
+      
       <h1 className={styles.header}>
-       {/* <p>You are now viewing admin's panel. (test, mainpanel, from Main.tsx)</p> */}
+        {/* Navbar is in Main variable to let it return in Main.tsx */}
+        <MainText />
         <Navbar />
-          {/* This navbar should be moved to right side. Try to use own UI instead CSS for this. Make underline invisible. */}
-          {/* Urgent: Make background size to 100%. To not let it exceed by itself. */}
-{/* 
-          For Navbar location, may consider using 'wrapper', then designate a new classname to move it on the right side.
-          For Wallpaper size matter, see this: https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height
-          remove dot point (left side)
-          */}
       </h1>
     </article>
   )
 }
 
-// const Navbar = () => {
-//   return (
-//     <nav className={styles.navbar}>
-//       <ul className={styles.navbarList}>
-//         <li className={styles.navbarListItem}>
-//           <a href="#" className={styles.navbarListItemLink}>
-//             Home
-//           </a>
-//         </li>
-//         <li className={styles.navbarListItem}>
-//           <a href="#" className={styles.navbarListItemLink}>
-//             About
-//           </a>
-//         </li>
-//         <li className={styles.navbarListItem}>
-//           <a href="#" className={styles.navbarListItemLink}>
-//             Contact
-//           </a>
-//         </li>
-//       </ul>
-//     </nav>
-//   )
-// }
-
 function MainPage() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <Navbar /> */}
         <Main />
       </header>
     </div>
@@ -66,19 +36,3 @@ function MainPage() {
 }
 
 export default MainPage
-
-
-// function Main() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//       <img src={MainPanel} alt="main-page" />
-// {/* If displaying text up on the image is NOT POSSIBLE, Then split image (north, east, west, south). Leave centre as blank for text. */}
-// {/* https://www.upbeatcode.com/react/how-to-write-text-on-image-in-react-js/ */}
-
-//       </header>
-//     </div>
-//   )
-// }
-
-// export default Main

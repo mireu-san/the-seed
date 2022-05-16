@@ -5,37 +5,66 @@
 }
 
 /* // issue area */
-.picture {
-    object-fit: cover;
-    width: 1366px;
-    height: 768px;
-    background-image: url("../image/mainPanel.jpg");
 
+/* .picture is main.tsx background image */
+.picture {
+    background-image: url("../image/mainPanel.jpg");
     background-size: cover;
+    /* width: 100%;
+    vertical-align: middle;
+	transform: translate( 0%, 0% ); */
 }
 
+img {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+/* .container is about.tsx, project.tsx's background image as wrapper. */
 .container {
     background-image: url("../image/story.jpg");
-    width: 1366px;
-    height: 788px;
+    /* width: 1366px;
+    height: 788px; */
     /* for mobile, use @media query */
     background-size: cover;
 }
 
 
+/* media query - responsive, screen size - mainly main.tsx */
+@media screen and (min-width: 2000px) {
+    .picture {
+        width: 1920px;
+        height: 1080px;
+        background-size: cover;
+    }
 
+    .container {
+        width: 1920px;
+        height: 1080px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 3000px) {
+    .picture {
+        width: 1920px;
+        height: 1080px;
+        background-size: cover;
+    }
+
+    .container {
+        width: 1920px;
+        height: 1080px;
+        background-size: cover;
+    }
+}
 /* end of issue area */
 
-/* .MainPanel {
-    background: url("../image/mainPanel.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-     background-size: cover;
-} */
-
 /* Temp note: Navbar is linked to .header */
+
+/* do not delete position: absolute; or text won't appear. */
+/* IMPORTANT : ASSUME .header works as wrapper container in Main.tsx */
 .header {
     /* font-size: 80px;
     color: white;
@@ -44,56 +73,24 @@
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;
-    height: fit-content;
-    margin: auto; */
+    margin: auto; 
+    right: 0;*/
+    /* height: fit-content; */
     position: absolute;
-    top: -3rem;
-    right: 0.5rem;
-    margin: auto;
-    text-indent: 1rem; 
-    letter-spacing: 2px;
-    line-height: 10rem;
-    font-size: 2.2rem;
+    top: 0rem;
+    right: 0rem;
+    left: 25rem;
+    bottom: 0rem;
+
+    display: grid;
+    /* gap between text and navbar, main.tsx */
+    column-gap: 50rem;
+    grid-template-columns: auto auto auto;
+    /* padding: 0px; */
+    /* margin: auto; */
+    /* text-indent: 1rem;  */
+    letter-spacing: 10px;
+    line-height: 3rem;
+    /* font-size: 2rem; */
+    /* padding-top: 10rem; */
 }
-
-
-
-/* .Nav__link  {
-    color: white;
-    list-style-type: none;
-} */
-
-
-/* ////////////////////////////// */
-
-/* .navbar {
-    background-color: #f2f2f2;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.navbarList {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.navbarListItem {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.navbarListItemLink {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
