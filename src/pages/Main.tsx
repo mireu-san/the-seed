@@ -5,6 +5,8 @@ import MainText from '../pages/MainText'
 import styles from "./Picture.module.css";
 import MainPanel from "../image/mainPanel.jpg";
 
+
+
 const Main = () => {
   return (
     // wallpaper background area

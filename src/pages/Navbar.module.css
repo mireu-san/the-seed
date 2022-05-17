@@ -26,12 +26,13 @@ nav {
     letter-spacing: 10px;
     line-height: 10rem;
 
-    display: grid;
+    /* core */
+    /* display: grid;
     column-gap: 50rem;
     grid-template-columns: auto auto auto;
 
     letter-spacing: 10px;
-    line-height: 3rem;
+    line-height: 3rem; */
 
 }
 

@@ -73,10 +73,10 @@ img {
     bottom: 0rem;
 
     /* gap between text and navbar, main.tsx */
-    /* display: grid;
+    display: grid;
     column-gap: 50rem;
     grid-template-columns: auto auto auto;
 
     letter-spacing: 10px;
-    line-height: 3rem; */
+    line-height: 3rem;
 }
