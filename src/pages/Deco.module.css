@@ -1,6 +1,59 @@
 .record {
     position: absolute;
     left: 25rem;
-    top: 25rem;
+    top: 20rem;
     padding-right: 30rem;
 }
+
+.recordBottom {
+    position: absolute;
+    bottom: 15rem;
+    left: 35rem;
+
+}
+
+
+
+.justTitle {
+    font-size: 1.5rem;
+}
+
+.justText {
+    font-size: 1rem;
+}
+
+/* Four Links - bottom side */
+/* 
+First - works as wrapper */
+/* .recordBottom {
+    top: 38rem;
+    left: 24rem;
+    display: relative;
+} */
+
+/* section - a group representer of four links */
+.externalLink {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    gap: 4px;
+    grid-auto-flow: column;
+
+    position: relative;
+    left: 20rem;
+    padding-right: 30rem;
+}
+
+.link {
+    /* position: relative; */
+    right: 10rem;
+    text-align: center;
+    justify-content: space-between;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1rem;
+    border: 1rem solid rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+} 
