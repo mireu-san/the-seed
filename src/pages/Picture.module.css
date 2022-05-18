@@ -68,7 +68,7 @@ img {
 /* IMPORTANT : ASSUME .header works as wrapper container in Main.tsx */
 .header {
     /* See Navbar.module.css for draggable text issue */
-    position: absolute;
+    /* position: absolute; */
     top: 0rem;
     right: 0rem;
     left: 0rem;

@@ -49,20 +49,14 @@ const Project = () => {
               <p className={deco.recordRight}>
                 <h1>Featured Repositories</h1>
                   <div className={deco.repository}>
-                    <h2>
-                      <a href="">test1</a>
-                    </h2>
-                    <p>
-                      <a href="">test2</a>
-                    </p>
-                  </div>
+                    <article>
+                      <a href="" className={deco.anchor}>Box 1</a>
 
-                  {/* <span>
-                    <a href="#" className={deco.featured} />
-                    <a href="#" className={deco.featured} />
-                    <a href="#" className={deco.featured} />
-                    <a href="https://github.com/mireu-san" className={deco.justText} />
-                  </span> */}
+                      <a href="" className={deco.anchor}>Box 2</a>
+
+                      <a href="" className={deco.anchor}>Box 2</a>
+                    </article>
+                  </div>
               </p>
           </div>
         </picture>

@@ -37,12 +37,18 @@ This repository is for personal use only. No commercial activity is planned. Any
 [x] 1. Logo insertion, get used to typescript.
 [x] 2. Admin's control panel page - e.g. navbar, status panel page.
 [x] 3. Work on - three pages
-[ ] 4. Add transition effect and disappear the logo.
-[ ] 5. Temporaily publish page on netlify.
+[ ] 4. Temporaily publish page on netlify.
 
 # What to do (debugging):
-[ ] 1. Fix overlay recognition issue (cannot drag text on image - about, project. works normally from Main.tsx )
+[x] 1. Fix overlay recognition issue (cannot drag text on image - about, project. works normally from Main.tsx )
 - Possible solution: this may be due to 'no grid setup' at the beginning.
 - Since position: absolute; proved to display text on image, don't change this.
 - Navbar (from main.tsx, h1->header keep overlaying the left side, as navbar. This is major issue to prevent clicking external link from about page.)
 (Advised to practice bit more with example - on image, grid, text)
+- Good. Just editing Picture->header->position:absolute;-> relocating lost navbar position -> nav tag -> resolved the issue.
+- Much hopeful.
+
+# Good to do (refactoring process after finishing the draft):
+[ ] 1. Add transition effect and disappear the logo.
+[ ] 2. Add grid on each page (admin panel, about, project) and clean up the css's location set (e.g. left: 100 rem)
+[ ] 3. Consider relocating all css files to css folder.

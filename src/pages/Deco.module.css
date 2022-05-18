@@ -19,14 +19,23 @@
     padding-right: 30rem;
 }
 
-/* featured repositories - text area, overlay */
+/* featured repositories - text area, overlay. For css, box container maybe? */
 .repository {
     position: absolute;
-    left: 8.5rem;
-    top: 5rem;
+    top: 7rem;
     padding-right: 30rem;
+    justify-content: center;
+    box-sizing: border-box;
+
 }
 
+.anchor {
+    border-style: inset;
+    padding: 1rem;
+    margin: 5px;
+}
+
+/* just title and text, for font size purpose */
 .justTitle {
     font-size: 1.5rem;
 }
@@ -46,16 +55,17 @@ First - works as wrapper */
 
 /* section - a group representer of four links */
 .externalLink {
+    /* display: absolute; */
     display: grid;
     justify-content: center;
     align-content: center;
 
     gap: 4px;
     grid-auto-flow: column;
-
+/*
     position: relative;
     left: 20rem;
-    padding-right: 30rem;
+    padding-right: 30rem; */
 }
 
 .link {

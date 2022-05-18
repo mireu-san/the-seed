@@ -6,12 +6,12 @@ a:link {
     text-decoration: none; 
 }
 
+
+/* To move location of navbar, see nav below. This is secondary in hierarchy */
 .Navbar__menu {
     color: rgb(255, 255, 255);
     display: block;
-    /* padding-top: 100px; */
-    /* padding-right: 40px;
-    padding-top: 20px; */
+
 }
 
 
@@ -22,6 +22,7 @@ nav {
     position: relative;
     float: right;
     font-size: 2rem;
+    bottom: 65rem;
 
     letter-spacing: 10px;
     line-height: 10rem;
