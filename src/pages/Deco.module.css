@@ -5,14 +5,27 @@
     padding-right: 30rem;
 }
 
-.recordBottom {
+/* .recordBottom {
     position: absolute;
     bottom: 15rem;
     left: 35rem;
 
+} */
+
+.recordRight {
+    position: absolute;
+    left: 60rem;
+    top: 20rem;
+    padding-right: 30rem;
 }
 
-
+/* featured repositories - text area, overlay */
+.repository {
+    position: absolute;
+    left: 8.5rem;
+    top: 5rem;
+    padding-right: 30rem;
+}
 
 .justTitle {
     font-size: 1.5rem;
@@ -58,3 +71,7 @@ First - works as wrapper */
     font-size: 40px;
 } 
 
+.featured {
+    font-size: 1.5rem;
+    color: #FFFEA5;
+}

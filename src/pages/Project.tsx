@@ -46,14 +46,24 @@ const Project = () => {
                   {/* ✅deco.record is the core to let text to be displayed on wallpaper */}
               </p>
               {/* Temporary tag - change div to something else later if necessary. */}
-              <section>
-                {/* <Pie data={data} />; */}
-                <p>test</p>
-                {/* make a circle, and display the proportion of stack */}
-                {/* https://www.chartjs.org/docs/latest/charts/doughnut.html#pie
-                https://www.youtube.com/watch?v=UwlaPofs5cA
-                https://codesandbox.io/s/github/reactchartjs/react-chartjs-2/tree/master/sandboxes/pie/default?from-embed */}
-              </section>
+              <p className={deco.recordRight}>
+                <h1>Featured Repositories</h1>
+                  <div className={deco.repository}>
+                    <h2>
+                      <a href="">test1</a>
+                    </h2>
+                    <p>
+                      <a href="">test2</a>
+                    </p>
+                  </div>
+
+                  {/* <span>
+                    <a href="#" className={deco.featured} />
+                    <a href="#" className={deco.featured} />
+                    <a href="#" className={deco.featured} />
+                    <a href="https://github.com/mireu-san" className={deco.justText} />
+                  </span> */}
+              </p>
           </div>
         </picture>
 
