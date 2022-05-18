@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import styles from '../pages/Navbar.module.css'; 
 
+
 export default class Navbar extends React.Component {
     render() {
         return (
@@ -23,9 +24,7 @@ export default class Navbar extends React.Component {
                         <li className='Navbar__menu-item-project'>
                             <Link className={styles.navLink} to="/project">Project</Link>
                         </li>
-                    {/* </ul> */}
                 </div>
-                {/* </div> */}
             </nav>
         )
     }

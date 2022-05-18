@@ -28,6 +28,7 @@ img {
     height: 788px; */
     /* for mobile, use @media query */
     background-size: cover;
+    display: grid;
 }
 
 
@@ -66,6 +67,7 @@ img {
 /* do not delete position: absolute; or text won't appear. */
 /* IMPORTANT : ASSUME .header works as wrapper container in Main.tsx */
 .header {
+    /* See Navbar.module.css for draggable text issue */
     position: absolute;
     top: 0rem;
     right: 0rem;

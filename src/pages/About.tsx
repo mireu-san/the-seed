@@ -25,7 +25,7 @@ const About = () => {
                   </p>
                 </p>
                 {/* This area suppose to be located - bottom */}
-              <p className={deco.recordBottom}>
+              {/* <p className={deco.recordBottom}>
                 <h1>External Links</h1>
                   <section className={deco.externalLink}>
                     <a href="https://github.com/mireu-san" className={deco.link}>Github</a>
@@ -33,7 +33,7 @@ const About = () => {
                     <a href="https://silverlibrary.tistory.com/" className={deco.link}>Blog</a>
                     <a href="mailto:starmireu@gmail.com" className={deco.link}>Email</a>
                   </section>
-              </p>
+              </p> */}
               
           </div>
         </picture>

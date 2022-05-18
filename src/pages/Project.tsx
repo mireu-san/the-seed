@@ -14,13 +14,13 @@ Chart.register(
 
 const data = {
   labels: [
-    'JavaScript',
-    'Typescript',
-    'React'
+    'JavaScript, Reactjs',
+    'Reactjs, Typescript',
+    'HTML'
   ],
   datasets: [{
     label: 'My First Dataset',
-    data: [300, 50, 100],
+    data: [26, 4, 9],
     backgroundColor: [
       'rgb(255, 99, 132)',
       'rgb(54, 162, 235)',
@@ -37,12 +37,13 @@ const Project = () => {
         <picture className={styles.picture}>
           <div className={styles.container}>
             <img src={story} className={styles.story} />  
-              <h1>Project</h1>
+              {/* Input area to display it - content, text */}
               <p className={deco.record}>
-                {/* This is the Project page. Need 6 grid spaces to display the project in order. From latest to representative one. */}
-                <span>test</span>
-                  <Doughnut data={data} />
-                {/* ✅deco.record is the core to let text to be displayed on wallpaper */}
+                <h1>Project</h1>
+                  {/* This is the Project page. Need 6 grid spaces to display the project in order. From latest to representative one. */}
+                  <span>Stack used in repositories</span>
+                    <Doughnut data={data} />
+                  {/* ✅deco.record is the core to let text to be displayed on wallpaper */}
               </p>
               {/* Temporary tag - change div to something else later if necessary. */}
               <section>
