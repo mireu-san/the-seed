@@ -16,9 +16,9 @@ const About = () => {
                 <section className={deco.record}>
                   {/* This is the about page. May present some brief history from Python to current react and typescript frontend enthusiast. This time, I won't include picture but more details. */}
                   <h1>Jongwan Kim</h1>
-                  <h3 className={deco.justTitle}>Self-taught Frontend Web Developer Enthusiast</h3>
+                  <h3 className={deco.justTitle}>React & TypeScript Web Developer Enthusiast</h3>
                   <p className={deco.justText}>
-                    Focusing on stack with JavaScript base. React / TypeScript is the main stack I use nowadays.
+                    Mainly use stacks with JavaScript base. React / TypeScript are my preference to use nowadays.
                   </p>
                   <p className={deco.justText}>
                     Face the fear, Build the future. That's what I'm here for.

@@ -1,3 +1,7 @@
+
+# Some minor concern:
+- swup may sounds foreign for developer in public. Will it be acceptable? Does it sound following the 'standard'?
+
 Typescript - cannot import image file.
 1. https://bobbyhadz.com/blog/typescript-could-not-find-a-declaration-file-for-module-styled-components
 
