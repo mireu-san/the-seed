@@ -39,7 +39,7 @@ const Project = () => {
             <img src={story} className={styles.story} />  
               {/* Input area to display it - content, text */}
               <p className={deco.record}>
-                <h1>Project</h1>
+                <h1 className={deco.justTitle}>Project</h1>
                   {/* This is the Project page. Need 6 grid spaces to display the project in order. From latest to representative one. */}
                   <span>Stack used in repositories</span>
                     <Doughnut data={data} />
@@ -47,14 +47,32 @@ const Project = () => {
               </p>
               {/* Temporary tag - change div to something else later if necessary. */}
               <p className={deco.recordRight}>
-                <h1>Featured Repositories</h1>
+                <h1 className={deco.justTitle}>Featured Repositories</h1>
                   <div className={deco.repository}>
-                    <article>
-                      <a href="" className={deco.anchor}>Box 1</a>
+                    <article className={deco.anchor}>
+                      <a href="" className={deco.repoLink}>
 
-                      <a href="" className={deco.anchor}>Box 2</a>
+                          <div className={deco.spaceAnchor}>
+                            <div className={deco.grayColour}>01 React</div> Repo - repo title
+                          </div>
 
-                      <a href="" className={deco.anchor}>Box 2</a>
+                          <div className={deco.spaceAnchor}>
+                            <div className={deco.grayColour}>02 React & TypeScript </div> Repo - repo title
+                          </div>
+
+                          <div className={deco.spaceAnchor}>
+                            <div className={deco.grayColour}>03 JavaScript</div> Repo - repo title
+                          </div>
+
+                          <div className={deco.spaceAnchor}>
+                            <div className={deco.grayColour}>04 HTML</div> Repo - repo title
+                          </div>
+
+                          <div className={deco.spaceAnchor}>
+                            <div className={deco.grayColour}>05 HTML</div> Repo - repo title
+                          </div>
+
+                      </a>
                     </article>
                   </div>
               </p>

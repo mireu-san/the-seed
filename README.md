@@ -8,10 +8,14 @@ This is what I am thinking to do.
 4. Portfolio link page
 5. contact page
 
+# Something I could do better:
+1. Use functioning programming > use less class 
+
 # Agile methodology
 1. Welcome screen (act as welcome page)
 - As a visitor, I want to move on to the main screen.
 - As a developer, I need to set up main screen.
+
 ### To do that,
 - Separated page, background image, transition effect.
 - render it from index.tsx. Make a new file call 'welcome.tsx'. Try using styled components first.'

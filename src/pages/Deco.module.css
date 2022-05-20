@@ -12,32 +12,67 @@
 
 } */
 
+/* Wrapping position - project, right side, repository, anchor */
 .recordRight {
     position: absolute;
     left: 60rem;
     top: 20rem;
     padding-right: 30rem;
+    padding: 0;
+    margin: 0;
+    font-size: 2.25rem;
 }
 
-/* featured repositories - text area, overlay. For css, box container maybe? */
+/* featured repositories - anchor position */
 .repository {
     position: absolute;
-    top: 7rem;
+    top: 4rem;
+    left: -7rem;
     padding-right: 30rem;
     justify-content: center;
     box-sizing: border-box;
-
+    text-align: left;
 }
 
+/* project - repository's box style */
 .anchor {
-    border-style: inset;
+    width: 400px;
+    height: 300px;
+    font-size: 18px;
+
+    background-color: black;
+    border:#FFFEA5;
+    /* padding: 150px; */
+    /* padding-left: 215px; */
+    /* padding-right: 215px; */
+    /* padding-top: 0px; */
+    /* padding-bottom: 400px; */
+
+    border: 10px solid white;
+    margin: 60px;
+
+    margin-right: 400px;
+    /* border-style: inset;
     padding: 1rem;
-    margin: 5px;
+    margin: 5px; */
 }
 
-/* just title and text, for font size purpose */
+.spaceAnchor {
+    margin: 1rem;
+    box-shadow: 0px 2px 0px gray;
+}
+
+.grayColour {
+    color: gray;
+}
+/* .spaceUnderline {
+    margin: 0.5rem;
+} */
+
+/* just title and text, for font-size purpose */
+/* this is left side, project */
 .justTitle {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
 }
 
 .justText {
