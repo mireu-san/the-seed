@@ -1,13 +1,16 @@
 .record {
     position: absolute;
-    left: 25rem;
-    top: 20rem;
-    padding-right: 30rem;
+    left: 30rem;
+    top: 25rem;
+    padding-right: 0rem;
+    padding: 2rem;
+
+    border-top: 5px solid;
+    border: 2px solid white;
 }
 
 /* .recordBottom {
-    position: absolute;
-    bottom: 15rem;
+    bottom: 0rem;
     left: 35rem;
 
 } */
@@ -48,10 +51,20 @@
     /* padding-top: 0px; */
     /* padding-bottom: 400px; */
 
-    border: 10px solid white;
+    border: 5px solid #FFFEA5;
     margin: 60px;
 
     margin-right: 400px;
+
+    border-top: 5px solid;
+    border: 10px solid pink;
+    border-image: repeating-linear-gradient(
+        -55deg,
+        #000,
+        #000 10px,
+        #FFFEA5 10px,
+        #FFFEA5 20px
+      ) 10;
     /* border-style: inset;
     padding: 1rem;
     margin: 5px; */
@@ -114,9 +127,17 @@ First - works as wrapper */
     padding: 1rem;
     border: 1rem solid rgba(0, 0, 0, 0.8);
     font-size: 40px;
+
+    padding-top: 0rem;
+    border-top-width: 0px;
 } 
 
 .featured {
     font-size: 1.5rem;
     color: #FFFEA5;
+}
+
+/* About.tsx (some of them may still exist above line */
+.aboutBottom {
+    padding-top: 1rem;
 }

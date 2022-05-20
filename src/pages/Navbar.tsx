@@ -19,7 +19,7 @@ export default class Navbar extends React.Component {
                             <Link className={styles.navLink} to="/main">Admin Panel</Link>
                         </li>
                         <li className='Navbar__menu-item-about'>
-                            <Link className={styles.navLink} to="/about">About</Link>
+                            <Link className={styles.navLink} to="/about">Author</Link>
                         </li>
                         <li className='Navbar__menu-item-project'>
                             <Link className={styles.navLink} to="/project">Project</Link>

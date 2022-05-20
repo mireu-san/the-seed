@@ -12,21 +12,33 @@ a:link {
     color: rgb(255, 255, 255);
     display: block;
 
+
+
 }
 
 
 /* Final place - modify navbar location (do not change others except this nav tag) */
 nav {
     /* padding: 100px; */
-    left: 102rem;
+    left: 101.5rem;
     position: relative;
     float: right;
     font-size: 2rem;
     bottom: 65rem;
+    width: 270px;
 
     letter-spacing: 10px;
     line-height: 10rem;
 
+    border-top: 5px solid;
+    border: 10px solid pink;
+    border-image: repeating-linear-gradient(
+        -55deg,
+        #000,
+        #000 10px,
+        #FFFEA5 10px,
+        #FFFEA5 20px
+      ) 10;
     /* core */
     /* display: grid;
     column-gap: 50rem;
@@ -42,8 +54,12 @@ nav {
     /* this position absolute allows draggable text. DO NOT CHANGE! */
     position: absolute;
     left: 15rem;
-    top: 12rem;
-    padding-right: 30rem;
+    top: 15rem;
+    padding-right: 0rem;
+
+    padding: 2rem;
+    border-top: 5px solid;
+    border: 2px solid white;
 }
 
 /* Welcome.tsx button */

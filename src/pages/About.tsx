@@ -12,7 +12,6 @@ const About = () => {
         <picture className={styles.picture}>
           <div className={styles.container}>
             <img src={story} alt="wallpaper" className={styles.story} />  
-              <h1>About</h1>
                 <section className={deco.record}>
                   {/* This is the about page. May present some brief history from Python to current react and typescript frontend enthusiast. This time, I won't include picture but more details. */}
                   <h1>Jongwan Kim</h1>
@@ -25,7 +24,7 @@ const About = () => {
                   </p>
 
                 <p className={deco.recordBottom}>
-                  <h1>External Links</h1>
+                  <h1 className={deco.aboutBottom}>External Links</h1>
                     <section className={deco.externalLink}>
                       <a href="https://github.com/mireu-san" className={deco.link}>Github</a>
                       <a href="https://www.linkedin.com/in/jongwan-kim-89500a194/" className={deco.link}>LinkedIn</a>
