@@ -53,24 +53,24 @@ const Project = () => {
                       <a href="" className={deco.repoLink}>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>01 React</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
+                            <div className={deco.grayColour}>01 React & Typescript </div> <a href="https://github.com/mireu-san/the-seed" className={deco.repoLink}>Repo - The Seed</a>
                             
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>02 React & TypeScript </div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
+                            <div className={deco.grayColour}>02 React & TypeScript </div> <a href="https://github.com/mireu-san/sandbox-todolist" className={deco.repoLink}>Repo - To do list with Typescript</a>
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>03 JavaScript</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
+                            <div className={deco.grayColour}>03 JavaScript</div> <a href="https://github.com/mireu-san/the-greenhouse" className={deco.repoLink}>Repo - The Greenhouse</a>
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>04 HTML</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
+                            <div className={deco.grayColour}>04 JavaScript</div> <a href="https://github.com/mireu-san/js-mireu" className={deco.repoLink}>Repo - js Mireu</a>
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>05 HTML</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
+                            <div className={deco.grayColour}>05 HTML</div> <a href="https://github.com/mireu-san/Kokoa-Clone-2020" className={deco.repoLink}>Repo - Kokoatalk</a>
                           </div>
 
                       </a>

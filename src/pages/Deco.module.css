@@ -1,9 +1,9 @@
 .record {
     position: absolute;
-    left: 30rem;
+    left: 25rem;
     top: 25rem;
     padding-right: 0rem;
-    padding: 2rem;
+    padding: 2.5rem;
 
     border-top: 5px solid;
     border: 2px solid white;
