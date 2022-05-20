@@ -5,12 +5,16 @@ import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"
 
+import { motion } from "framer-motion"
+
+// Author page
 
 const About = () => {
   return (
     <article className={styles.article}>
         <picture className={styles.picture}>
           <div className={styles.container}>
+            
             <img src={story} alt="wallpaper" className={styles.story} />  
                 <section className={deco.record}>
                   {/* This is the about page. May present some brief history from Python to current react and typescript frontend enthusiast. This time, I won't include picture but more details. */}

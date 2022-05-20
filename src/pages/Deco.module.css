@@ -18,12 +18,14 @@
 /* Wrapping position - project, right side, repository, anchor */
 .recordRight {
     position: absolute;
-    left: 60rem;
-    top: 20rem;
+    left: 65rem;
+    top: 25rem;
     padding-right: 30rem;
     padding: 0;
     margin: 0;
     font-size: 2.25rem;
+
+    
 }
 
 /* featured repositories - anchor position */
@@ -42,6 +44,8 @@
     width: 400px;
     height: 300px;
     font-size: 18px;
+    border: 1rem;
+
 
     background-color: black;
     border:#FFFEA5;

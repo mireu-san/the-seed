@@ -46,36 +46,37 @@ const Project = () => {
                   {/* ✅deco.record is the core to let text to be displayed on wallpaper */}
               </p>
               {/* Temporary tag - change div to something else later if necessary. */}
-              <p className={deco.recordRight}>
+              <div className={deco.recordRight}>
                 <h1 className={deco.justTitle}>Featured Repositories</h1>
                   <div className={deco.repository}>
                     <article className={deco.anchor}>
                       <a href="" className={deco.repoLink}>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>01 React</div> Repo - repo title
+                            <div className={deco.grayColour}>01 React</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
+                            
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>02 React & TypeScript </div> Repo - repo title
+                            <div className={deco.grayColour}>02 React & TypeScript </div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>03 JavaScript</div> Repo - repo title
+                            <div className={deco.grayColour}>03 JavaScript</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>04 HTML</div> Repo - repo title
+                            <div className={deco.grayColour}>04 HTML</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
                           </div>
 
                           <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>05 HTML</div> Repo - repo title
+                            <div className={deco.grayColour}>05 HTML</div> <a href="#" className={deco.repoLink}>Repo - repo title</a>
                           </div>
 
                       </a>
                     </article>
                   </div>
-              </p>
+              </div>
           </div>
         </picture>
 
