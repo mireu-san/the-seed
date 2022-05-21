@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Picture.module.css";
-import story from "../components/image/story.jpg";
+// import story from "../components/image/story.jpg";
 import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"
@@ -36,7 +36,7 @@ const Project = () => {
     <article className={styles.article}>
         <picture className={styles.picture}>
           <div className={styles.container}>
-            <img src={story} className={styles.story} />  
+            <img className={styles.story} />  
               {/* Input area to display it - content, text */}
               <p className={deco.record}>
                 <h1 className={deco.justTitle}>Project</h1>

@@ -3,7 +3,7 @@ import Navbar from '../pages/Navbar'
 import MainText from '../pages/MainText'
 
 import styles from "./Picture.module.css";
-import MainPanel from "../components/image/mainpanel.jpg";
+// import MainPanel from "../components/image/mainpanel.jpg";
 
 
 
@@ -13,7 +13,7 @@ const Main = () => {
     <article className={styles.article}>
     
       <picture className={styles.picture}>
-        <img src={MainPanel} className={styles.picture} />
+        <img className={styles.picture} />
       </picture>
         
       {/* Text Area */}

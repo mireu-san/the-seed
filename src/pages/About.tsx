@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Picture.module.css";
-import story from "../components/image/story.jpg";
+// import story from "../components/image/story.jpg";
 import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"
@@ -15,7 +15,7 @@ const About = () => {
         <picture className={styles.picture}>
           <div className={styles.container}>
 
-            <img src={story} alt="wallpaper" className={styles.story} />  
+            <img className={styles.story} />  
                 <section className={deco.record}>
                   {/* This is the about page. May present some brief history from Python to current react and typescript frontend enthusiast. This time, I won't include picture but more details. */}
                   <h1>Jongwan Kim</h1>
