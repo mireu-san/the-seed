@@ -15,7 +15,7 @@ const About = () => {
         {/* <picture className={styles.picture}> */}
           <div className={styles.container}>
 
-            <img className={styles.story} alt="mainimage" />  
+            <img className={styles.story} alt="" />  
                 <section className={deco.record}>
                   {/* This is the about page. May present some brief history from Python to current react and typescript frontend enthusiast. This time, I won't include picture but more details. */}
                   <h1 className={deco.justTitle}>Jongwan Kim</h1>

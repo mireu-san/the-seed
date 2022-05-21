@@ -13,7 +13,7 @@ const Main = () => {
     <article className={styles.article}>
     
       <picture className={styles.picture}>
-        <img className={styles.picture} alt="mainimage" />
+        <img className={styles.picture} alt="" />
       </picture>
         
       {/* Text Area */}

@@ -32,6 +32,10 @@ img {
     font-size: 0px;
 }
 
+/* .logo {
+    background-image: url("../image/logo.jpg");
+    background-size: cover;
+} */
 
 /* media query - responsive, screen size - mainly main.tsx */
 @media screen and (min-width: 2000px) {

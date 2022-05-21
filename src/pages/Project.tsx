@@ -36,7 +36,7 @@ const Project = () => {
     <article className={styles.article}>
         {/* <picture className={styles.picture}> */}
           <div className={styles.container}>
-            <img className={styles.story} alt="mainimage" />  
+            <img className={styles.story} alt="" />  
               {/* Input area to display it - content, text */}
               <p className={deco.record}>
                 <h1 className={deco.justTitle}>Project</h1>
