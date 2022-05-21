@@ -37,3 +37,9 @@ class Image extends React.Component {
 https://stackoverflow.com/questions/36097527/how-to-retrieve-medium-stories-for-a-user-from-the-api
 
 https://github.com/Medium/medium-api-docs
+
+# If Stuck...
+- Must leave a log to git storage.
+- Delete 'node_modules' folder only. DO NOT delete package.json.
+- then 'npm install' in command line.
+- Re-run (refresh) VSCode.
