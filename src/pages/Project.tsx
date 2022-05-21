@@ -34,9 +34,9 @@ const data = {
 const Project = () => {
   return (
     <article className={styles.article}>
-        <picture className={styles.picture}>
+        {/* <picture className={styles.picture}> */}
           <div className={styles.container}>
-            <img className={styles.story} />  
+            <img className={styles.story} alt="mainimage" />  
               {/* Input area to display it - content, text */}
               <p className={deco.record}>
                 <h1 className={deco.justTitle}>Project</h1>
@@ -50,7 +50,7 @@ const Project = () => {
                 <h1 className={deco.justTitle}>Featured Repositories</h1>
                   <div className={deco.repository}>
                     <article className={deco.anchor}>
-                      <a href="" className={deco.repoLink}>
+                      {/* <a href="" className={deco.repoLink}> */}
 
                           <div className={deco.spaceAnchor}>
                             <div className={deco.grayColour}>01 React & Typescript </div> <a href="https://github.com/mireu-san/the-seed" className={deco.repoLink}>Repo - The Seed</a>
@@ -73,12 +73,12 @@ const Project = () => {
                             <div className={deco.grayColour}>05 HTML</div> <a href="https://github.com/mireu-san/Kokoa-Clone-2020" className={deco.repoLink}>Repo - Kokoatalk</a>
                           </div>
 
-                      </a>
+                      {/* </a> */}
                     </article>
                   </div>
               </div>
           </div>
-        </picture>
+        {/* </picture> */}
 
         <h1 className={styles.header}>
           <Navbar />

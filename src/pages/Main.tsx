@@ -13,15 +13,15 @@ const Main = () => {
     <article className={styles.article}>
     
       <picture className={styles.picture}>
-        <img className={styles.picture} />
+        <img className={styles.picture} alt="mainimage" />
       </picture>
         
       {/* Text Area */}
       
       <h1 className={styles.header}>
         {/* Navbar is in Main variable to let it return in Main.tsx */}
-        <MainText />
         <Navbar />
+        <MainText />
       </h1>
     </article>
   )

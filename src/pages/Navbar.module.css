@@ -53,9 +53,9 @@ nav {
 .text {
     /* this position absolute allows draggable text. DO NOT CHANGE! */
     position: absolute;
-    left: 15rem;
+    left: 12rem;
     top: 15rem;
-    padding-right: 0rem;
+    /* padding-right: 0rem; */
 
     padding: 2rem;
     border-top: 5px solid;

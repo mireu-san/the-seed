@@ -5,20 +5,20 @@ import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"
 
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 // Author page
 
 const About = () => {
   return (
     <article className={styles.article}>
-        <picture className={styles.picture}>
+        {/* <picture className={styles.picture}> */}
           <div className={styles.container}>
 
-            <img className={styles.story} />  
+            <img className={styles.story} alt="mainimage" />  
                 <section className={deco.record}>
                   {/* This is the about page. May present some brief history from Python to current react and typescript frontend enthusiast. This time, I won't include picture but more details. */}
-                  <h1>Jongwan Kim</h1>
+                  <h1 className={deco.justTitle}>Jongwan Kim</h1>
                   <h3 className={deco.justTitle}>React & TypeScript Web Developer Enthusiast</h3>
                   <p className={deco.justText}>
                     Mainly use stacks with JavaScript base. React / TypeScript are my preference to use nowadays.
@@ -42,7 +42,7 @@ const About = () => {
 
               
           </div>
-        </picture>
+        {/* </picture> */}
 
         <h1 className={styles.header}>
           <Navbar />

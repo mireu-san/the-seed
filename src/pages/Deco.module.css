@@ -144,4 +144,5 @@ First - works as wrapper */
 /* About.tsx (some of them may still exist above line */
 .aboutBottom {
     padding-top: 1rem;
+    font-size: 2rem;
 }

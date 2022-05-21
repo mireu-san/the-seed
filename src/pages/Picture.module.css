@@ -8,11 +8,11 @@
 
 /* .picture is main.tsx background image */
 .picture {
-    background-image: url("../components/image/mainpanel.jpg");
+    /* background-image: url("../components/image/mainpanel.jpg"); */
+    background-image: url('https://github.com/mireu-san/the-seed/blob/master/src/components/image/mainPanel.jpg');
+    
     background-size: cover;
-    /* width: 100%;
-    vertical-align: middle;
-	transform: translate( 0%, 0% ); */
+    font-size: 0px;
 }
 
 img {
@@ -23,12 +23,13 @@ img {
 
 /* .container is about.tsx, project.tsx's background image as wrapper. */
 .container {
-    background-image: url("../components/image/story.jpg");
+    background-image: url('https://github.com/mireu-san/the-seed/blob/master/src/components/image/story.jpg');
     /* width: 1366px;
     height: 788px; */
     /* for mobile, use @media query */
     background-size: cover;
     display: grid;
+    font-size: 0px;
 }
 
 
