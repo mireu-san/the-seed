@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Picture.module.css";
-import story from "../image/story.jpg";
+import story from "../components/image/story.jpg";
 import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"

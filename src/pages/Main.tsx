@@ -3,7 +3,7 @@ import Navbar from '../pages/Navbar'
 import MainText from '../pages/MainText'
 
 import styles from "./Picture.module.css";
-import MainPanel from "../image/mainPanel.jpg";
+import MainPanel from "../components/image/mainpanel.jpg";
 
 
 

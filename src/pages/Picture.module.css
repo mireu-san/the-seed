@@ -8,7 +8,7 @@
 
 /* .picture is main.tsx background image */
 .picture {
-    background-image: url("../image/mainpanel.jpg");
+    background-image: url("../components/image/mainpanel.jpg");
     background-size: cover;
     /* width: 100%;
     vertical-align: middle;
@@ -23,7 +23,7 @@ img {
 
 /* .container is about.tsx, project.tsx's background image as wrapper. */
 .container {
-    background-image: url("../image/story.jpg");
+    background-image: url("../components/image/story.jpg");
     /* width: 1366px;
     height: 788px; */
     /* for mobile, use @media query */
