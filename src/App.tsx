@@ -18,15 +18,10 @@ function App() {
         <header className="App-header">
             <Router>
               <Routes>
-
                 <Route path="/" element={<Welcome />} />
-
                 <Route path="/main" element={<Main />} />
-
                 <Route path="/about" element={<About />} />
-
                 <Route path="/project" element={<Project />} />
-              
               </Routes>
             </Router>
             {/* Do not leave any content here. Only to work as the link platform. */}
