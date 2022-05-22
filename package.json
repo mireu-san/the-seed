@@ -1,7 +1,7 @@
 {
   "name": "theseed",
   "version": "0.1.0",
-  "homepage": "https://mireu-san.github.io/mimatomy",
+  "homepage": "https://mireu-san.github.io/the-seed",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

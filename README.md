@@ -6,7 +6,6 @@ This is what I am thinking to do.
 2. Admin's page (client side)
 3. About page
 4. Portfolio link page
-5. contact page
 
 # Something I could do better:
 1. Use functioning programming > use less class 
