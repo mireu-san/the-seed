@@ -1,21 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../pages/Navbar'
-import MainText from '../pages/MainText'
-
+import MainText from '../pages/MainText' 
 import styles from "./Picture.module.css";
-// import MainPanel from "../components/image/mainpanel.jpg";
 
-
+import { motion } from 'framer-motion'
 
 const Main = () => {
+
   return (
     // wallpaper background area
     <article className={styles.article}>
-    
+    <motion.div
+      animate={{ scale: 1 }}
+      transition={{ duration: 1 }}
+    >
       <picture className={styles.picture}>
         <img className={styles.picture} alt="" />
       </picture>
-        
+    </motion.div>
       {/* Text Area */}
       
       <h1 className={styles.header}>

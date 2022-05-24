@@ -43,3 +43,6 @@ https://github.com/Medium/medium-api-docs
 - Delete 'node_modules' folder only. DO NOT delete package.json.
 - then 'npm install' in command line.
 - Re-run (refresh) VSCode.
+
+# framer-motion
+- npm install framer-motion
