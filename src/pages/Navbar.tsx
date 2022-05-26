@@ -13,9 +13,14 @@ export default class Navbar extends React.Component {
             <nav className="navbar">
                 <div className='Navbar__menu'>
                     {/* <ul className='Navbar__menu-wrapper'> */}
-                        <li className='Navbar__menu-item-title'>
-                            <Link className={styles.navLink} to="/">ESC</Link>
-                        </li>
+                        <motion.li 
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            className='Navbar__menu-item-title'>
+                                <Link className={styles.navLink} to="/">
+                                    ESC
+                                </Link>
+                        </motion.li>
                         <li className='Navbar__menu-item-main'>
                             <Link className={styles.navLink} to="/main">Admin Panel</Link>
                         </li>
