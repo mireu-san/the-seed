@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import styles from "../pages/Navbar.module.css";
 // import logo from "../pages/Picture.module.css";
 
+import { motion } from 'framer-motion'
 
 
 function Welcome() {
@@ -14,9 +15,13 @@ function Welcome() {
             <img src={ImageLogo} alt="" />
 
             <Link to="/main">
-                <button className={styles.btn}>
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+
+                  className={styles.btn}>
                     <p className={styles.alert}>Start</p>
-                </button>
+                </motion.button>
             </Link>
 
         </header>

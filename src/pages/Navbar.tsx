@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import styles from '../pages/Navbar.module.css'; 
 
+import { motion } from 'framer-motion';
 
 export default class Navbar extends React.Component {
     render() {
