@@ -14,7 +14,7 @@ a:link {
 .Navbar__menu {
     color: rgb(255, 255, 255);
     display: block;
-
+    
 
 
 }
@@ -24,14 +24,17 @@ a:link {
 nav {
     /* padding: 100px; */
     /* left: 0rem; */
-    position: relative;
+    font-size: larger;
+    font-family: 'Roboto Flex', sans-serif;
+    /* position: relative; */
     float: right;
     font-size: 2rem;
-    bottom: 65rem;
-    width: 270px;
+    /* bottom: 54rem; */
+    /* width: 300px; */
 
+    
     letter-spacing: 10px;
-    line-height: 10rem;
+    line-height: 16.35rem;
 
     border-top: 5px solid;
     border: 10px solid pink;
@@ -52,6 +55,18 @@ nav {
 
 }
 
+@media screen and (min-width: 1920px) {
+    nav {
+        line-height: 16.35rem;
+    }
+}
+
+@media screen and (max-width: 2220px) {
+    nav {
+        line-height: 11.5rem;
+    }
+}
+
 /* maintext.tsx, left side of main.tsx */
 .text {
     /* this position absolute allows draggable text. DO NOT CHANGE! */
@@ -63,6 +78,25 @@ nav {
     padding: 2rem;
     border-top: 5px solid;
     border: 2px solid white;
+
+    letter-spacing: 10px;
+    line-height: 3rem;
+
+    font-size: larger;
+}
+
+@media screen and (min-width: 2220px) {
+    .text {
+        left: 20rem;
+        /* right: rem; */
+    }
+}
+
+@media screen and (max-width: 2220px) {
+    .text {
+        top: 11rem;
+        font-size: xx-large;
+    }
 }
 
 /* Welcome.tsx button */
@@ -70,10 +104,14 @@ nav {
     border: 2px solid black;
     background-color: black;
     color: black;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
     font-size: 10px;
     cursor: pointer;
+    margin: 0;
     border-inline-color: #FFFEA5;
+/* 
+    width: 400px;
+    height: 150px; */
 }
 
 .alert {
@@ -86,6 +124,8 @@ nav {
     background: #f44336;
     color: white;
 }
+
+/* end of button - start */
 
 .navLink {
     color: #FFFEA5;
@@ -118,3 +158,11 @@ nav {
     margin-right: 20px;
     padding-left: 0px;
 } */
+
+.welcomeLocation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 15rem;
+}

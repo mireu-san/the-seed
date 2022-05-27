@@ -12,24 +12,26 @@ const Main = () => {
 
   return (
     // wallpaper background area
+    
     <article className={styles.article}>
-    <motion.div 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
-      <picture className={styles.picture}>
+      <motion.div 
+        className={styles.main}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+      {/* <picture className={styles.picture}> */}
         {/* lobotomy main.tsx background image */}
         <img className={styles.picture} alt="" />
-      </picture>
-    </motion.div>
+            <Navbar />
+            <MainText />
+          {/* <h1> */}
+          {/* </h1> */}
+      {/* </picture> */}
       {/* Text Area */}
       
       {/* h1, header in main.tsx no longer chained with navbar */}
-      <h1 className={styles.header}>
-        <Navbar />
-        <MainText />
-      </h1>
+      </motion.div>
     </article>
   )
 }
@@ -37,7 +39,7 @@ const Main = () => {
 function MainPage() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className={styles.AppHeader}>
         <Main />
       </header>
     </div>

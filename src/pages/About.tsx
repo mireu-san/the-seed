@@ -44,13 +44,13 @@ const About = () => {
                 </section>
                 {/* This area suppose to be located - bottom */}
 
+        <h1>
+          <Navbar />
+        </h1>
               
           </motion.div>
         {/* </picture> */}
 
-        <h1 className={styles.header}>
-          <Navbar />
-        </h1>
 
 
     </article>

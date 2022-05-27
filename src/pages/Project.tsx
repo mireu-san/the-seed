@@ -74,14 +74,11 @@ const Project = () => {
                     </article>
                   </div>
               </div>
-          </motion.div>
 
-
-        <h1 className={styles.header}>
+        <h1>
           <Navbar />
         </h1>
-
-
+          </motion.div>
     </article>
   )
 }

@@ -17,7 +17,8 @@ function Welcome() {
       exit={{ opacity: 0 }}
     
     className="App">
-        <header className="App-header">
+        {/* <header className="App-header"> */}
+        <header className={styles.welcomeLocation}>
             <img src={ImageLogo} alt="" />
 
             <Link to="/main">
