@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navbar from '../pages/Navbar'
 import MainText from '../pages/MainText' 
 import styles from "./Picture.module.css";
@@ -19,13 +19,14 @@ const Main = () => {
       exit={{ opacity: 0 }}
     >
       <picture className={styles.picture}>
+        {/* lobotomy main.tsx background image */}
         <img className={styles.picture} alt="" />
       </picture>
     </motion.div>
       {/* Text Area */}
       
+      {/* h1, header in main.tsx no longer chained with navbar */}
       <h1 className={styles.header}>
-        {/* Navbar is in Main variable to let it return in Main.tsx */}
         <Navbar />
         <MainText />
       </h1>

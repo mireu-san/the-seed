@@ -23,7 +23,7 @@ a:link {
 /* Final place - modify navbar location (do not change others except this nav tag) */
 nav {
     /* padding: 100px; */
-    left: 101.5rem;
+    /* left: 0rem; */
     position: relative;
     float: right;
     font-size: 2rem;

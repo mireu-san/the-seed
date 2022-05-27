@@ -1,5 +1,5 @@
 .article {
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@
 img {
     display: grid;
     column-gap: 50px;
-    grid-template-columns: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
 }
 
 /* .container is about.tsx, project.tsx's background image as wrapper. */
@@ -43,12 +43,16 @@ img {
         width: 1920px;
         height: 1080px;
         background-size: cover;
+
+
     }
 
     .container {
         width: 1920px;
         height: 1080px;
         background-size: cover;
+
+
     }
 }
 
@@ -57,12 +61,16 @@ img {
         width: 1920px;
         height: 1080px;
         background-size: cover;
+
+
     }
 
     .container {
         width: 1920px;
         height: 1080px;
         background-size: cover;
+
+
     }
 }
 /* end of issue area */
@@ -74,15 +82,19 @@ img {
 .header {
     /* See Navbar.module.css for draggable text issue */
     /* position: absolute; */
-    top: 0rem;
+    /* top: 0rem;
     right: 0rem;
     left: 0rem;
-    bottom: 0rem;
+    bottom: 0rem; */
 
     /* gap between text and navbar, main.tsx */
-    display: grid;
-    column-gap: 50rem;
-    grid-template-columns: auto auto auto;
+
+    /* JUST RECOVER THIS display:grid to restore navbar */
+
+    /* display: grid; */
+
+    /* column-gap: 50rem; */
+    /* grid-template-columns: auto auto auto; */
 
     letter-spacing: 10px;
     line-height: 3rem;

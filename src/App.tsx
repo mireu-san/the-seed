@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header"> */}
 
           {/* <AnimatePresence exitBeforeEnter> */}
             <Router>
@@ -35,7 +35,7 @@ function App() {
               </Routes>
             </Router>
           {/* </AnimatePresence> */}
-        </header>
+        {/* </header> */}
     </div>
   );
 }
