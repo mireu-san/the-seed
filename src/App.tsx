@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 // import ImageLogo from "./image/logo.jpg";
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom"
 
 
 import Main from './pages/Main';
@@ -12,16 +12,20 @@ import Welcome from './pages/Welcome';
 
 // import { AnimatePresence } from 'framer-motion';
 
+// interface LocationState {
+//   from: {
+//     pathname: string;
+//   };
+// }
 
 
 function App() {
 
-
   return (
     <div className="App">
         <header className="App-header">
-          {/* framer-motion here : need to designate the target animation and its page to be transited */}
-          {/* <AnimatePresence> */}
+
+          {/* <AnimatePresence exitBeforeEnter> */}
             <Router>
               <Routes>
                 <Route path="/" element={<Welcome />} />
@@ -31,8 +35,6 @@ function App() {
               </Routes>
             </Router>
           {/* </AnimatePresence> */}
-            {/* Do not leave any content here. Only to work as the link platform. */}
-            {/* App.tsx Click/Touch the image to move on to the main page. */}
         </header>
     </div>
   );

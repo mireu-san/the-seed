@@ -4,8 +4,11 @@ import MainText from '../pages/MainText'
 import styles from "./Picture.module.css";
 
 import { motion } from 'framer-motion'
+// import { useLocation } from 'react-router-dom'
 
 const Main = () => {
+  // const location = useLocation()
+  
 
   return (
     // wallpaper background area

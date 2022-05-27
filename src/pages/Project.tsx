@@ -5,6 +5,8 @@ import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"
 
+import { motion } from 'framer-motion'
+
 // react-chartjs-2
 import {Chart, Tooltip, Title, ArcElement, Legend} from 'chart.js'
 import { Doughnut } from 'react-chartjs-2'
@@ -34,8 +36,12 @@ const data = {
 const Project = () => {
   return (
     <article className={styles.article}>
-        {/* <picture className={styles.picture}> */}
-          <div className={styles.container}>
+
+          <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className={styles.container}>
             <img className={styles.story} alt="" />  
               {/* Input area to display it - content, text */}
               <p className={deco.record}>
@@ -50,35 +56,26 @@ const Project = () => {
                 <h1 className={deco.justTitle}>Featured Repositories</h1>
                   <div className={deco.repository}>
                     <article className={deco.anchor}>
-                      {/* <a href="" className={deco.repoLink}> */}
-
-                          <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>01 React & Typescript </div> <a href="https://github.com/mireu-san/the-seed" className={deco.repoLink}>Repo - The Seed</a>
-                            
-                          </div>
-
-                          <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>02 React & TypeScript </div> <a href="https://github.com/mireu-san/sandbox-todolist" className={deco.repoLink}>Repo - To do list with Typescript</a>
-                          </div>
-
-                          <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>03 JavaScript</div> <a href="https://github.com/mireu-san/the-greenhouse" className={deco.repoLink}>Repo - The Greenhouse</a>
-                          </div>
-
-                          <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>04 JavaScript</div> <a href="https://github.com/mireu-san/js-mireu" className={deco.repoLink}>Repo - js Mireu</a>
-                          </div>
-
-                          <div className={deco.spaceAnchor}>
-                            <div className={deco.grayColour}>05 HTML</div> <a href="https://github.com/mireu-san/Kokoa-Clone-2020" className={deco.repoLink}>Repo - Kokoatalk</a>
-                          </div>
-
-                      {/* </a> */}
+                      <div className={deco.spaceAnchor}>
+                        <div className={deco.grayColour}>01 React & Typescript </div> <a href="https://github.com/mireu-san/the-seed" className={deco.repoLink}>Repo - The Seed</a>  
+                      </div>
+                      <div className={deco.spaceAnchor}>
+                        <div className={deco.grayColour}>02 React & TypeScript </div> <a href="https://github.com/mireu-san/sandbox-todolist" className={deco.repoLink}>Repo - To do list with Typescript</a>
+                      </div>
+                      <div className={deco.spaceAnchor}>
+                        <div className={deco.grayColour}>03 JavaScript</div> <a href="https://github.com/mireu-san/the-greenhouse" className={deco.repoLink}>Repo - The Greenhouse</a>
+                      </div>
+                      <div className={deco.spaceAnchor}>
+                        <div className={deco.grayColour}>04 JavaScript</div> <a href="https://github.com/mireu-san/js-mireu" className={deco.repoLink}>Repo - js Mireu</a>
+                      </div>
+                      <div className={deco.spaceAnchor}>
+                        <div className={deco.grayColour}>05 HTML</div> <a href="https://github.com/mireu-san/Kokoa-Clone-2020" className={deco.repoLink}>Repo - Kokoatalk</a>
+                      </div>
                     </article>
                   </div>
               </div>
-          </div>
-        {/* </picture> */}
+          </motion.div>
+
 
         <h1 className={styles.header}>
           <Navbar />

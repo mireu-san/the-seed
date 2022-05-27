@@ -5,7 +5,7 @@ import Navbar from '../pages/Navbar'
 
 import deco from "../pages/Deco.module.css"
 
-// import { motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 // Author page
 
@@ -13,7 +13,11 @@ const About = () => {
   return (
     <article className={styles.article}>
         {/* <picture className={styles.picture}> */}
-          <div className={styles.container}>
+          <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className={styles.container}>
 
             <img className={styles.story} alt="" />  
                 <section className={deco.record}>
@@ -41,7 +45,7 @@ const About = () => {
                 {/* This area suppose to be located - bottom */}
 
               
-          </div>
+          </motion.div>
         {/* </picture> */}
 
         <h1 className={styles.header}>
