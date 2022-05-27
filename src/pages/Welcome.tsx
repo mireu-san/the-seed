@@ -19,7 +19,7 @@ function Welcome() {
     className="App">
         {/* <header className="App-header"> */}
         <header className={styles.welcomeLocation}>
-            <img src={ImageLogo} alt="" />
+            <img src={ImageLogo} alt="" className={styles.logo} />
 
             <Link to="/main">
                 <motion.button
