@@ -16,7 +16,7 @@ export default class Navbar extends React.Component {
                 <div className='Navbar__menu'>
                     {/* <ul className='Navbar__menu-wrapper'> */}
                         <motion.li 
-                            whileHover={{ scale: 1.1 }}
+                            whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.9 }}
                             className='Navbar__menu-item-title'>
                                 <Link className={styles.navLink} to="/">
@@ -24,19 +24,19 @@ export default class Navbar extends React.Component {
                                 </Link>
                         </motion.li>    
                         <motion.li 
-                            whileHover={{ scale: 1.1 }}
+                            whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.9 }}
                             className='Navbar__menu-item-main'>
                             <Link className={styles.navLink} to="/main">Admin Panel</Link>
                         </motion.li>
                         <motion.li 
-                        whileHover={{ scale: 1.1 }}
+                        whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         className='Navbar__menu-item-about'>
                             <Link className={styles.navLink} to="/about">Author</Link>
                         </motion.li>
                         <motion.li 
-                        whileHover={{ scale: 1.1 }}
+                        whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
                         className='Navbar__menu-item-project'>
                             <Link className={styles.navLink} to="/project">Project</Link>

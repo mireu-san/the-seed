@@ -16,8 +16,14 @@ function Welcome() {
 
             <Link to="/main">
                 <motion.button
-                  whileHover={{ scale: 1.1 }}
+                  whileHover={{ scale: 1.4 }}
                   whileTap={{ scale: 0.9 }}
+                  
+                  transition={{ times: 2}}
+                  animate={{
+                    y: 0,
+                    width: '100%'
+                  }}
 
                   className={styles.btn}>
                     <p className={styles.alert}>Start</p>

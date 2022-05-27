@@ -12,11 +12,16 @@ import Welcome from './pages/Welcome';
 
 // import { AnimatePresence } from 'framer-motion';
 
+
+
 function App() {
+
+
   return (
     <div className="App">
         <header className="App-header">
           {/* framer-motion here : need to designate the target animation and its page to be transited */}
+          {/* <AnimatePresence> */}
             <Router>
               <Routes>
                 <Route path="/" element={<Welcome />} />
@@ -25,6 +30,7 @@ function App() {
                 <Route path="/project" element={<Project />} />
               </Routes>
             </Router>
+          {/* </AnimatePresence> */}
             {/* Do not leave any content here. Only to work as the link platform. */}
             {/* App.tsx Click/Touch the image to move on to the main page. */}
         </header>
