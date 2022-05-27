@@ -10,9 +10,10 @@ const Main = () => {
   return (
     // wallpaper background area
     <article className={styles.article}>
-    <motion.div
-      animate={{ scale: 1 }}
-      transition={{ duration: 1 }}
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
     >
       <picture className={styles.picture}>
         <img className={styles.picture} alt="" />

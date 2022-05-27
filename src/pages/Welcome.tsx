@@ -10,7 +10,13 @@ import { motion } from 'framer-motion'
 
 function Welcome() {
   return (
-    <div className="App">
+  // <AnimatePresence>
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    
+    className="App">
         <header className="App-header">
             <img src={ImageLogo} alt="" />
 
@@ -18,8 +24,6 @@ function Welcome() {
                 <motion.button
                   whileHover={{ scale: 1.4 }}
                   whileTap={{ scale: 0.9 }}
-                  
-                  transition={{ times: 2}}
                   animate={{
                     y: 0,
                     width: '100%'
@@ -31,7 +35,8 @@ function Welcome() {
             </Link>
 
         </header>
-    </div>
+    </motion.div>
+  // </AnimatePresence>
   )
 }
 
