@@ -86,16 +86,16 @@ img {
 }
 
 /* If width is over max-width, then apply these conditions */
-@media screen and (max-width: 2220px) {
+@media screen and (max-width: 2530px) {
     .picture {
-        width: 1366px;
-        height: 768px;
+        width: 900px;
+        height: 600px;
         background-size: cover;
     }
 
     .container {
-        width: 1366px;
-        height: 768px;
+        width: 900px;
+        height: 600px;
         background-size: cover;
     }
 }

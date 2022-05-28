@@ -44,16 +44,16 @@ const Project = () => {
           className={styles.container}>
             <img className={styles.story} alt="" />  
               {/* Input area to display it - content, text */}
-              <p className={deco.record}>
-                <h1 className={deco.justTitle}>Project</h1>
+              <p className={deco.recordProject}>
+                <p className={deco.justTitleProject}>Project</p>
                   {/* This is the Project page. Need 6 grid spaces to display the project in order. From latest to representative one. */}
-                  <span>Stack used in repositories</span>
+                  <span className={deco.justTextProject}>Stack used in repositories</span>
                     <Doughnut data={data} />
                   {/* ✅deco.record is the core to let text to be displayed on wallpaper */}
               </p>
               {/* Temporary tag - change div to something else later if necessary. */}
               <div className={deco.recordRight}>
-                <h1 className={deco.justTitle}>Featured Repositories</h1>
+                <h1 className={deco.justTitleProject}>Featured Repositories</h1>
                   <div className={deco.repository}>
                     <article className={deco.anchor}>
                       <div className={deco.spaceAnchor}>

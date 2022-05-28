@@ -21,8 +21,8 @@ const About = () => {
 
             <img className={styles.story} alt="" />  
                 <section className={deco.record}>
-                  <h1 className={deco.justTitle}>Jongwan Kim</h1>
-                  <h3 className={deco.justTitle}>React & TypeScript Web Developer Enthusiast</h3>
+                  <p className={deco.justTitle}>Jongwan Kim</p>
+                  <p className={deco.justTitle}>React & TypeScript Web Developer Enthusiast</p>
                   <p className={deco.justText}>
                     Mainly use stacks with JavaScript base. React / TypeScript are my preference to use nowadays.
                   </p>
@@ -31,7 +31,7 @@ const About = () => {
                   </p>
 
                 <p className={deco.recordBottom}>
-                  <h1 className={deco.aboutBottom}>External Links</h1>
+                  <p className={deco.aboutBottom}>External Links</p>
                     <section className={deco.externalLink}>
                       <a href="https://github.com/mireu-san" className={deco.link}>Github</a>
                       <a href="https://www.linkedin.com/in/jongwan-kim-89500a194/" className={deco.link}>LinkedIn</a>
