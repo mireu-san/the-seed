@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/the-seed/static/css/main.1076f4c1.css",
+    "main.css": "/the-seed/static/css/main.553d667c.css",
     "main.js": "/the-seed/static/js/main.566794d9.js",
     "static/media/mainpanel.jpg": "/the-seed/static/media/mainpanel.d4075f7db5ef69725f1c.jpg",
     "static/media/story.jpg": "/the-seed/static/media/story.b3adfee58d94472b6d78.jpg",
     "static/media/logo.jpg": "/the-seed/static/media/logo.1c4b7f1fab32afbc0409.jpg",
     "index.html": "/the-seed/index.html",
-    "main.1076f4c1.css.map": "/the-seed/static/css/main.1076f4c1.css.map",
+    "main.553d667c.css.map": "/the-seed/static/css/main.553d667c.css.map",
     "main.566794d9.js.map": "/the-seed/static/js/main.566794d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1076f4c1.css",
+    "static/css/main.553d667c.css",
     "static/js/main.566794d9.js"
   ]
 }
