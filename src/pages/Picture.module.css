@@ -1,8 +1,31 @@
+/* 복병 2 */
 .article {
     position: absolute;
     overflow: hidden;
+
+    /* do not delete left and right! = center */
+    /* left: 25%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* grid-template-columns: 1fr max-content min(63ch, 50%) 1fr; */
 }
 
+  /* 복병 1 */
+  .main {
+    position: relative;
+    font-size: larger;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block;
+    margin: 0 auto;
+    width: 100%;
+     */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
 /* // issue area */
 
 /* .picture is main.tsx background image */
@@ -105,9 +128,7 @@ img {
     font-size: calc(10px + 2vmin);
     color: white;
     font-family: 'Roboto Flex', sans-serif;
+
+
   }
 
-  .main {
-      position: relative;
-      font-size: larger;
-  }
