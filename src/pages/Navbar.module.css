@@ -14,9 +14,6 @@ a:link {
 .Navbar__menu {
     color: rgb(255, 255, 255);
     display: block;
-    
-
-
 }
 
 
@@ -30,7 +27,7 @@ nav {
     float: right;
     font-size: 2rem;
     /* bottom: 54rem; */
-    /* width: 300px; */
+    /* width: 280px; */
 
     
     letter-spacing: 10px;

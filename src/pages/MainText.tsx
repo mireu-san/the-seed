@@ -9,7 +9,7 @@ export default function MainText() {
             <p>Welcome to Mimatomy Corporation.</p>
             <p>You are now viewing the main control panel.</p>
             <p>More permission would be granted soon.</p>
-            <p>PC screen: ✅, Mobile screen : TBA </p>
+            <p>PC screen: 1655x775, Mobile screen : TBA </p>
         </span>
     </div>    
   )

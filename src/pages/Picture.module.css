@@ -1,16 +1,23 @@
-/* 복병 2 */
 .article {
     position: absolute;
     overflow: hidden;
 
-    /* do not delete left and right! = center */
     /* left: 25%; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    display: block;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
     /* grid-template-columns: 1fr max-content min(63ch, 50%) 1fr; */
 }
 
-  /* 복병 1 */
   .main {
     position: relative;
     font-size: larger;
@@ -54,6 +61,7 @@ img {
     background-size: cover;
     display: grid;
     font-size: 0px;
+    margin-left: 18rem;
 }
 
 /* .logo {
