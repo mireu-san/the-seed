@@ -7,6 +7,7 @@ This is what I am thinking to do.
 3. About page
 4. Portfolio link page
 
+npm run build
 npm run deploy
 
 # Something I could do better:
