@@ -54,11 +54,12 @@ nav {
 
 @media screen and (min-width: 1920px) {
     nav {
-        line-height: 16.35rem;
+        line-height: 8.875rem;
+        letter-spacing: 1px;
     }
 }
 
-@media screen and (max-width: 2220px) {
+@media screen and (max-width: 2000px) {
     nav {
         /* line-height: 11.5rem; */
         line-height: 8.875rem;
