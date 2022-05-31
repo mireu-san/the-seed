@@ -62,6 +62,16 @@ img {
     display: grid;
     font-size: 0px;
     margin-left: 18rem;
+
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+}
+
+.picture {
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
 }
 
 /* .logo {
@@ -71,7 +81,7 @@ img {
 
 /* media query - responsive, screen size - mainly main.tsx */
 /* If width is below min-width, then apply these conditions. */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1100px) {
     .picture {
         width: 1920px;
         height: 1080px;
@@ -85,8 +95,7 @@ img {
     }
 }
 
-/* If width is over max-width, then apply these conditions */
-@media screen and (max-width: 2530px) {
+@media screen and (max-width: 1200px) {
     .picture {
         width: 900px;
         height: 600px;
